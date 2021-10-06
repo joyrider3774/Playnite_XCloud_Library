@@ -99,7 +99,7 @@ namespace XCloudLibrary
                 coverSizesList.Add(new ImageTypeSize
                 {
                     ID = string.Format("{0}|{1}|S", i, i),
-                    Res = string.Format("{0}|{1}|S", i, i),
+                    Res = string.Format("{0}x{1}", i, i),
                     Name = "Square ",
                 });
             };
