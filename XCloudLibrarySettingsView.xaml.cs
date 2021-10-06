@@ -186,7 +186,11 @@ namespace XCloudLibrary
 
         private void SelectBrowser_Click(object sender, RoutedEventArgs e)
         {
-            TbBrowserPath.Text = plugin.PlayniteApi.Dialogs.SelectFile("Exe Files|*.exe");
+            string tmp = plugin.PlayniteApi.Dialogs.SelectFile("Exe Files|*.exe");
+            if (tmp != string.Empty)
+            {
+                TbBrowserPath.Text = tmp;
+            }
         }
     }
 }
