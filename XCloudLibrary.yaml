@@ -1,6 +1,6 @@
 AddonId: 'XCloudLibrary_5befaf7a-a0af-4ce2-992c-bc048d94e71b'
 Packages:
-- Version: 1.1
+  - Version: 1.1
     RequiredApiVersion: 6.0.0
     ReleaseDate: 2021-10-10
     PackageUrl: https://github.com/joyrider3774/Playnite_XCloud_Library/releases/download/v1.1/XCloudLibrary_5befaf7a-a0af-4ce2-992c-bc048d94e71b_1_1.pext
