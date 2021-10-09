@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- settings screen Generic options -->
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GenericOptions">Generic Options</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayAddedNotification">Display notification when a game gets added</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayRemovedNotification">Display notification when a game gets removed</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Region">Region:</sys:String>
+
+    <!-- settings screen Metadata options -->
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_MetadataOptions">Metadata Options</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Language">Language:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_IconSize">Icon Size:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_CoverSize">Cover Size:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BackgroundSize">Background Size:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_PreferBackgroundTitle">Prefer background with title</sys:String>
+
+    <!-- settings screen Browser options -->
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserOptions">Browser Options</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserLocation">Browser location (Chrome.exe or Msedge.exe when using options below):</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Select">Select</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParameters">Extra parameters to pass to browser:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrl">Prepend url (for example some microsoft redirect url to login, use at your own risk):</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskMode">Use Kiosk Mode</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDir">Use Data Dir</sys:String>
+
+    <!-- settings screen Tooltips -->
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_RegionTooltip">Affects available games</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_LanguageTooltip">Affects game names and descriptions</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_ResizeTooltip">Microsoft servers will attempt to resize to this resolution</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParametersTooltip">Add your own extra parameters</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrlTooltip">Adding some redirect url to login to microsoft and redirect to this page, can work better to make games immmediatly launch, but can cause softlock on account when called too often!</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskModeTooltip">Will Launch chrome or edge in fullscreen kiosk modus</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDirTooltip">Will make sure chrome or edge will launch in seperate instance and use it's own data files specific for playnite (will also fix kiosk modus not working if already running)</sys:String>
+
+    <!-- Misc -->
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameAdded">XCloud game {0} has been added</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameRemoved">XCloud game {0} has been removed</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupMessage">Please setup XCLoud Region, language and browser first in settings!</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupBrowserMessage">Please setup your browser correctly first!</sys:String>
+    
+    <!-- Image Types -->
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Icon">Icon</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Poster">Poster</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Square">Square</sys:String>
+     
+</ResourceDictionary>

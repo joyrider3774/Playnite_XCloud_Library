@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- settings screen Generic options -->
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GenericOptions">Algemene Opties</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayAddedNotification">Toon een notificatie wanneer een spel wordt toegevoegd</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayRemovedNotification">Toon een notificatie wanneer een spel wordt verwijderd</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Region">Regio:</sys:String>
+
+    <!-- settings screen Metadata options -->
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_MetadataOptions">Metadata Opties</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Language">Taal:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_IconSize">Icoon grootte:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_CoverSize">Cover grootte:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BackgroundSize">Achtergrondgrootte:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_PreferBackgroundTitle">Voorkeur voor achtergrond met titel</sys:String>
+
+    <!-- settings screen Browser options -->
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserOptions">Browser Opties</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserLocation">Browser locatie (Chrome.exe of Msedge.exe wanneer je opties hieronder gebruikt):</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Select">Selecteer</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParameters">Extra parameters om door te geven aan browser:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrl">Url voorvoegsel (bijvoorbeeld een microsoft redirect url om in te loggen, gebruik op eigen risico):</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskMode">Gebruik Kiosk Modus</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDir">Datamap gebruiken</sys:String>
+
+    <!-- settings screen Tooltips -->
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_RegionTooltip">Beïnvloed de beschikbare spellen</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_LanguageTooltip">Heeft invloed op spelnamen en beschrijvingen</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_ResizeTooltip">Microsoft servers zullen proberen de grootte te wijzigen naar deze resolutie</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParametersTooltip">Voeg uw eigen extra parameters toe</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrlTooltip">Het toevoegen van een omleidings-Url om in te loggen bij microsoft en door te verwijzen naar deze pagina, kan beter werken om spellen direct te lanceren, maar kan een softlock veroorzaken op de account wanneer je het te vaak gebruikt!</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskModeTooltip">Zal chrome of edge starten in volledig scherm kioskmodus</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDirTooltip">Zal ervoor zorgen dat chrome of edge wordt gestart in aparte instantie en zijn eigen gegevensbestanden specifiek voor playnite gebruikt (zal ook kiosk modus problemen oplossen als de browser al actief is)</sys:String>
+
+    <!-- Misc -->
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameAdded">XCloud spel {0} is toegevoegd</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameRemoved">XCloud spel {0} is verwijderd</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupMessage">Stel het XCLoud Regio, taal en browser eerst in bij instellingen!</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupBrowserMessage">Stel eerst een juiste browser in!</sys:String>
+    
+    <!-- Image Types -->
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Icon">Icoon</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Poster">Poster</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Square">Vierkant</sys:String>
+     
+</ResourceDictionary>

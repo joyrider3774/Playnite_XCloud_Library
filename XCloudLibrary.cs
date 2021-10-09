@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
@@ -27,6 +28,8 @@ namespace XCloudLibrary
 
         public XCloudLibrary(IPlayniteAPI api) : base(api)
         {
+            string pluginFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            Localization.SetPluginLanguage(pluginFolder, api.ApplicationSettings.Language);
             settings = new XCloudLibrarySettingsViewModel(this);
             Properties = new LibraryPluginProperties
             {
@@ -66,7 +69,7 @@ namespace XCloudLibrary
                             {
                                 PlayniteApi.Notifications.Add(new NotificationMessage(
                                     Guid.NewGuid().ToString(),
-                                    $"XCloud game \"{newGame.Name}\" has been added",
+                                    string.Format(Constants.GameAddedText, newGame.Name),
                                     NotificationType.Info));
                             }
                         }
@@ -91,7 +94,7 @@ namespace XCloudLibrary
                                 {
                                     PlayniteApi.Notifications.Add(new NotificationMessage(
                                         Guid.NewGuid().ToString(),
-                                        $"XCloud game \"{currentxcloudgame.Name}\" has been removed",
+                                        string.Format(Constants.GameRemovedText, currentxcloudgame.Name),
                                         NotificationType.Info));
                                 }
                             }
@@ -103,7 +106,7 @@ namespace XCloudLibrary
             {
 
                 PlayniteApi.Notifications.Add(new NotificationMessage(
-                    Guid.NewGuid().ToString(), "Please setup XCLoud Region, language and browser first in settings!", NotificationType.Info));
+                    Guid.NewGuid().ToString(), Constants.SetupMessageText, NotificationType.Info));
             }
             return result;
         }
@@ -127,7 +130,7 @@ namespace XCloudLibrary
 
             if (string.IsNullOrEmpty(settings.Settings.BrowserPath) || !File.Exists(settings.Settings.BrowserPath))
             {
-                PlayniteApi.Dialogs.ShowMessage("Please setup your browser correctly first!");
+                PlayniteApi.Dialogs.ShowMessage(Constants.SetupBrowserMessageText);
                 PlayniteApi.MainView.OpenPluginSettings(Id);
             }
 

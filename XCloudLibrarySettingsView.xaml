@@ -3,28 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             mc:Ignorable="d"
-              d:DesignHeight="400" d:DesignWidth="600">
+             xmlns:local="clr-namespace:XCloudLibrary"
+             mc:Ignorable="d">
     <StackPanel Margin="5">
-        <GroupBox Header="Generic Options">
+        <GroupBox Header="{DynamicResource LOC_XCLOUDLIBRARY_GenericOptions}">
             <StackPanel Margin="0,10,0,0">
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="Region:" VerticalAlignment="Center"/>
-                    <ComboBox Name="cbRegions" SelectedValuePath="Key" SelectedValue="{Binding Settings.Region}" DisplayMemberPath="Value" Margin="5,0,0,0" HorizontalAlignment="Left" Width="264" ToolTip="Affects available games"/>
+                    <TextBlock Text="{DynamicResource LOC_XCLOUDLIBRARY_Region}" VerticalAlignment="Center"/>
+                    <ComboBox Name="cbRegions" SelectedValuePath="Key" SelectedValue="{Binding Settings.Region}" DisplayMemberPath="Value" Margin="5,0,0,0" HorizontalAlignment="Left" Width="264" ToolTip="{DynamicResource LOC_XCLOUDLIBRARY_RegionTooltip}"/>
                 </StackPanel>
-                <CheckBox Name="cbNotifyAdditions" IsChecked="{Binding Settings.NotifyAdditions}" Margin="0,5,0,0">Display notification when a game gets added</CheckBox>
-                <CheckBox Name="cbNotifyRemovals" IsChecked="{Binding Settings.NotifyRemovals}" Margin="0,5,0,0">Display notification when a game gets removed</CheckBox>
+                <CheckBox Name="cbNotifyAdditions" IsChecked="{Binding Settings.NotifyAdditions}" Margin="0,5,0,0" Content="{DynamicResource LOC_XCLOUDLIBRARY_DisplayAddedNotification}"/>
+                <CheckBox Name="cbNotifyRemovals" IsChecked="{Binding Settings.NotifyRemovals}" Margin="0,5,0,0" Content="{DynamicResource LOC_XCLOUDLIBRARY_DisplayRemovedNotification}"/>
             </StackPanel>
         </GroupBox>
-        <GroupBox Header="Metadata Options">
+        <GroupBox Header="{DynamicResource LOC_XCLOUDLIBRARY_MetadataOptions}">
             <StackPanel Margin="0,10,0,0">
                 <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
-                    <TextBlock Text="Language:" VerticalAlignment="Center"/>
-                    <ComboBox Name="cbLanguages" SelectedValuePath="Key" SelectedValue="{Binding Settings.Language}" DisplayMemberPath="Value" Margin="5,0,0,0" HorizontalAlignment="Left" Width="285" ToolTip="Affects game names and descriptions"/>
+                    <TextBlock Text="{DynamicResource LOC_XCLOUDLIBRARY_Language}" VerticalAlignment="Center"/>
+                    <ComboBox Name="cbLanguages" SelectedValuePath="Key" SelectedValue="{Binding Settings.Language}" DisplayMemberPath="Value" Margin="5,0,0,0" HorizontalAlignment="Left" Width="285" ToolTip="{DynamicResource LOC_XCLOUDLIBRARY_LanguageTooltip}"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
-                    <TextBlock Text="Icon Size:" VerticalAlignment="Center"/>
-                    <ComboBox Name="cbIconSize" SelectedValuePath="ID" SelectedValue="{Binding Settings.IconSize}" Margin="5,0,0,0" HorizontalAlignment="Left" Width="291" ToolTip="Microsoft servers will attempt to resize to this resolution">
+                    <TextBlock Text="{DynamicResource LOC_XCLOUDLIBRARY_IconSize}" VerticalAlignment="Center"/>
+                    <ComboBox Name="cbIconSize" SelectedValuePath="ID" SelectedValue="{Binding Settings.IconSize}" Margin="5,0,0,0" HorizontalAlignment="Left" Width="291" ToolTip="{DynamicResource LOC_XCLOUDLIBRARY_ResizeTooltip}">
                         <ComboBox.ItemTemplate>
                             <DataTemplate>
                                 <Grid>
@@ -40,8 +40,8 @@
                     </ComboBox>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
-                    <TextBlock Text="Cover Size:" VerticalAlignment="Center"/>
-                    <ComboBox Name="cbCoverSize" SelectedValuePath="ID" SelectedValue="{Binding Settings.CoverSize}" Margin="5,0,0,0" HorizontalAlignment="Left" Width="282" ToolTip="Microsoft servers will attempt to resize to this resolution">
+                    <TextBlock Text="{DynamicResource LOC_XCLOUDLIBRARY_CoverSize}" VerticalAlignment="Center"/>
+                    <ComboBox Name="cbCoverSize" SelectedValuePath="ID" SelectedValue="{Binding Settings.CoverSize}" Margin="5,0,0,0" HorizontalAlignment="Left" Width="282" ToolTip="{DynamicResource LOC_XCLOUDLIBRARY_ResizeTooltip}">
                         <ComboBox.ItemTemplate>
                             <DataTemplate>
                                 <Grid>
@@ -57,8 +57,8 @@
                     </ComboBox>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
-                    <TextBlock Text="Background Size:" VerticalAlignment="Center"/>
-                    <ComboBox Name="cbBackgroundSize" SelectedValuePath="ID" SelectedValue="{Binding Settings.BackgroundSize}" Margin="5,0,0,0" HorizontalAlignment="Left" Width="250" ToolTip="Microsoft servers will attempt to resize to this resolution">
+                    <TextBlock Text="{DynamicResource LOC_XCLOUDLIBRARY_BackgroundSize}" VerticalAlignment="Center"/>
+                    <ComboBox Name="cbBackgroundSize" SelectedValuePath="ID" SelectedValue="{Binding Settings.BackgroundSize}" Margin="5,0,0,0" HorizontalAlignment="Left" Width="250" ToolTip="{DynamicResource LOC_XCLOUDLIBRARY_ResizeTooltip}">
                         <ComboBox.ItemTemplate>
                             <DataTemplate>
                                 <Grid>
@@ -72,23 +72,23 @@
                             </DataTemplate>
                         </ComboBox.ItemTemplate>
                     </ComboBox>
-                    <CheckBox Name="cbPreferTitledBackground" IsChecked="{Binding Settings.PreferTitledBackground}" VerticalAlignment="Center" Margin="10,0,0,0">Prefer background with title</CheckBox>
                 </StackPanel>
+                <CheckBox Name="cbPreferTitledBackground" IsChecked="{Binding Settings.PreferTitledBackground}" VerticalAlignment="Center" Margin="0,5,0,0" Content="{DynamicResource LOC_XCLOUDLIBRARY_PreferBackgroundTitle}"/>
             </StackPanel>
         </GroupBox>
-        <GroupBox Header="Browser Options">
+        <GroupBox Header="{DynamicResource LOC_XCLOUDLIBRARY_BrowserOptions}">
             <StackPanel Margin="0,10,0,0">
-                <TextBlock Text="Browser location (Chrome.exe or Msedge.exe when using options below):"/>
+                <TextBlock Text="{DynamicResource LOC_XCLOUDLIBRARY_BrowserLocation}"/>
                 <Grid>
                     <TextBox Name="TbBrowserPath"  Text="{Binding Settings.BrowserPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,115,0"/>
-                    <Button Name="SelectBrowser" Width="100" HorizontalAlignment="Right" Click="SelectBrowser_Click">Select</Button>
+                    <Button Name="SelectBrowser" Width="100" HorizontalAlignment="Right" Click="SelectBrowser_Click" Content="{DynamicResource LOC_XCLOUDLIBRARY_Select}"/>
                 </Grid>
-                <TextBlock Text="Extra parameters to pass to browser:"/>
-                <TextBox Name="TbExtraParameters" Text="{Binding Settings.ExtraParameters}" ToolTip="Add your own extra parameters" Margin="0"/>
-                <TextBlock Text="Prepend url (for example some microsoft redirect url to login, use at your own risk): "/>
-                <TextBox Name="TbPrependUrl" Text="{Binding Settings.PrependUrl}" ToolTip="Adding some redirect url to login to microsoft and redirect to this page, can work better to make games immmediatly launch, but can cause softlock on account when called to much!" Margin="0"/>
-                <CheckBox Name="cbUseKioskMode" IsChecked="{Binding Settings.UseKioskMode}" ToolTip="Will Launch chrome or edge in fullscreen kiosk modus" Margin="0,5,0,0">Use Kiosk Mode</CheckBox>
-                <CheckBox Name="cbUseDataDir" IsChecked="{Binding Settings.UseDataDir}" ToolTip="Will make sure chrome or edge will launch in seperate instance and use it's own data files specific for playnite (will also fix kiosk modus not working if already running)" Margin="0,5,0,0">Use Data Dir</CheckBox>
+                <TextBlock Text="{DynamicResource LOC_XCLOUDLIBRARY_BrowserExtraParameters}"/>
+                <TextBox Name="TbExtraParameters" Text="{Binding Settings.ExtraParameters}" ToolTip="{DynamicResource LOC_XCLOUDLIBRARY_BrowserExtraParametersTooltip}" Margin="0"/>
+                <TextBlock Text="{DynamicResource LOC_XCLOUDLIBRARY_BrowserPrependUrl}"/>
+                <TextBox Name="TbPrependUrl" Text="{Binding Settings.PrependUrl}" ToolTip="{DynamicResource LOC_XCLOUDLIBRARY_BrowserPrependUrlTooltip}" Margin="0"/>
+                <CheckBox Name="cbUseKioskMode" IsChecked="{Binding Settings.UseKioskMode}" ToolTip="{DynamicResource LOC_XCLOUDLIBRARY_BrowserUseKioskModeTooltip}" Margin="0,5,0,0" Content="{DynamicResource LOC_XCLOUDLIBRARY_BrowserUseKioskMode}"/>
+                <CheckBox Name="cbUseDataDir" IsChecked="{Binding Settings.UseDataDir}" ToolTip="{DynamicResource LOC_XCLOUDLIBRARY_BrowserUseDataDirTooltip}" Margin="0,5,0,0" Content="{DynamicResource LOC_XCLOUDLIBRARY_BrowserUseDataDir}"/>
             </StackPanel>
         </GroupBox>
     </StackPanel>

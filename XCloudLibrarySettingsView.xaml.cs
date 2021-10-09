@@ -20,10 +20,10 @@ namespace XCloudLibrary
     {
         public string ID { get; set; } = "";
         public string Name { get; set; } = "";
-        public string Res { get; set; } = "";       
+        public string Res { get; set; } = "";
     }
 
-        public partial class XCloudLibrarySettingsView : UserControl
+    public partial class XCloudLibrarySettingsView : UserControl
     {
         XCloudLibrary plugin;
 
@@ -67,7 +67,7 @@ namespace XCloudLibrary
                 {
                     ID = string.Format("{0}|{1}|S", i, i),
                     Res = string.Format("{0}x{1}", i, i),
-                    Name = "Icon ",
+                    Name = Constants.IconText + " ",
                   });
             };
 
@@ -76,21 +76,21 @@ namespace XCloudLibrary
             {
                 ID = "342|482|P",
                 Res = "342x482",
-                Name = "Poster ",
+                Name = Constants.PosterText + " ",
             });
 
             coverSizesList.Add(new ImageTypeSize
             {
                 ID = "660|930|P",
                 Res = "660x930",
-                Name = "Poster ",
+                Name = Constants.PosterText + " ",
             });
 
             coverSizesList.Add(new ImageTypeSize
             {
                 ID = "600|900|P",
                 Res = "600x900",
-                Name = "Poster ",
+                Name = Constants.PosterText + " ",
             });
 
             for (int i = 128; i <= 1024; i *= 2)
@@ -100,7 +100,7 @@ namespace XCloudLibrary
                 {
                     ID = string.Format("{0}|{1}|S", i, i),
                     Res = string.Format("{0}x{1}", i, i),
-                    Name = "Square ",
+                    Name = Constants.SquareText + " ",
                 });
             };
 
