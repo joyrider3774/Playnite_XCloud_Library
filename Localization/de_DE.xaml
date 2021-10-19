@@ -2,46 +2,46 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- settings screen Generic options -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_GenericOptions">Generic Options</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayAddedNotification">Display notification when a game gets added</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayRemovedNotification">Display notification when a game gets removed</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GenericOptions">Allgemeine Optionen</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayAddedNotification">Benachrichtigung anzeigen, wenn ein Spiel hinzugefügt wird</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayRemovedNotification">Benachrichtigung anzeigen, wenn ein Spiel entfernt wird</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_Region">Region:</sys:String>
 
     <!-- settings screen Metadata options -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_MetadataOptions">Metadata Options</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Language">Language:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_IconSize">Icon Size:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_CoverSize">Cover Size:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BackgroundSize">Background Size:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_PreferBackgroundTitle">Prefer background with title</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_MetadataOptions">Metadaten-Optionen</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Language">Sprache:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_IconSize">Symbolgröße:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_CoverSize">Covergröße:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BackgroundSize">Hintergrundgröße:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_PreferBackgroundTitle">Hintergrund mit Titel bevorzugen</sys:String>
 
     <!-- settings screen Browser options -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserOptions">Browser Options</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserLocation">Browser location (Chrome.exe or Msedge.exe when using options below):</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Select">Select</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParameters">Extra parameters to pass to browser:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrl">Prepend url (for example some microsoft redirect url to login, use at your own risk):</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskMode">Use Kiosk Mode</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDir">Use Data Dir</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserOptions">Browser-Optionen</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserLocation">Browser-Speicherort (Chrome.exe oder Msedge.exe bei Verwendung der folgenden Optionen):</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Select">Auswählen</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParameters">Zusätzliche Parameter zum Übergeben an den Browser:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrl">Url voranstellen (zum Beispiel eine Microsoft-Umleitungs-Url zum Anmelden, Verwendung auf eigene Gefahr):</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskMode">Kiosk-Modus verwenden</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDir">Datenverzeichnis verwenden</sys:String>
 
     <!-- settings screen Tooltips -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_RegionTooltip">Affects available games</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_LanguageTooltip">Affects game names and descriptions</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_ResizeTooltip">Microsoft servers will attempt to resize to this resolution</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParametersTooltip">Add your own extra parameters</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrlTooltip">Adding some redirect url to login to microsoft and redirect to this page, can work better to make games immmediatly launch, but can cause softlock on account when called too often!</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskModeTooltip">Will Launch chrome or edge in fullscreen kiosk modus</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDirTooltip">Will make sure chrome or edge will launch in seperate instance and use it's own data files specific for playnite (will also fix kiosk modus not working if already running)</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_RegionTooltip">Beeinflusst verfügbare Spiele</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_LanguageTooltip">Beeinflusst Spielnamen und Beschreibungen</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_ResizeTooltip">Microsoft-Server werden versuchen, diese Auflösung zu nutzen</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParametersTooltip">Füge eigene zusätzliche Parameter hinzu</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrlTooltip">Füge eine Umleitungs-Url hinzu, um dich bei Microsoft anzumelden und auf diese Seite weiterzuleiten. Kann helfen, Spiele sofort zu starten, aber kann Sperre auf Konto verursachen, wenn sie zu oft aufgerufen wird!</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskModeTooltip">Startet Chrome oder Edge im Vollbildkiosk-Modus</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDirTooltip">Stellt sicher, dass Chrome und Edge in seperaten Instanzen starten und ihr eigenes, Playnite-spezifisches Datenverzeichnis verwenden (behebt auch den Fehler, dass der Kiosk-Modus nicht funktioniert, wenn der Browser bereits läuft)</sys:String>
 
     <!-- Misc -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameAdded">XCloud game {0} has been added</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameRemoved">XCloud game {0} has been removed</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupMessage">Please setup XCLoud Region, language and browser first in settings!</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupBrowserMessage">Please setup your browser correctly first!</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameAdded">XCloud-Spiel {0} wurde hinzugefügt</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameRemoved">XCloud-Spiel {0} wurde entfernt</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupMessage">Bitte richte zuerst XCloud Region, Sprache und Browser in den Einstellungen ein!</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupBrowserMessage">Bitte richte zunächst deinen Browser korrekt ein!</sys:String>
     
     <!-- Image Types -->
     <sys:String x:Key="LOC_XCLOUDLIBRARY_Icon">Icon</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_Poster">Poster</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Square">Square</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Square">Quadrat</sys:String>
      
 </ResourceDictionary>

@@ -13,7 +13,7 @@ I use a xbox 360 controller on my pc and i use an autohotkey script to activate 
 The project is translatable on [Crowdin](https://crowdin.com/project/playnite-game-speak)
 
 #### People who contributed to translations:
-joyrider3774
+joyrider3774, felixkmh
 
 ## Credits
 * Used Icon made by [Freepik](http://www.freepik.com/)
