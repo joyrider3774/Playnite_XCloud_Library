@@ -19,5 +19,7 @@ joyrider3774, felixkmh
 * Used Icon made by [Freepik](http://www.freepik.com/)
 * Original JSon classes and certain code based on code from Xbox Gamepass Catalogbrowser by [Darklinkpower](https://github.com/darklinkpower)
 
-## Donations
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/joyrider3774)
+## Buy me a "koffie" if you feel like supporting 
+I do everything in my spare time for free, if you feel something aided you and you want to support me, you can always buy me a "koffie" as we say in dutch, no obligations whatsoever...
+
+<a href='https://ko-fi.com/Q5Q3BKI5S' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
