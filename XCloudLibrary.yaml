@@ -1,5 +1,16 @@
 AddonId: 'XCloudLibrary_5befaf7a-a0af-4ce2-992c-bc048d94e71b'
 Packages:
+  - Version: 1.3
+    RequiredApiVersion: 6.2.2
+    ReleaseDate: 2022-03-29
+    PackageUrl: https://github.com/joyrider3774/Playnite_XCloud_Library/releases/download/v1.3/XCloudLibrary-v1.3.pext
+    Changelog:
+      - Added option to select if games should be marked as installed or not
+      - Added Russian translation by Pishunick
+      - Added korean translation by Min-Ki Jeong
+      - Added Simplified Chinese translation by ATNewHope
+      - Added Portugese, Brazilian translation by BarbosaRT
+      - Added Arabic translation by X4Lo
   - Version: 1.1
     RequiredApiVersion: 6.0.0
     ReleaseDate: 2021-10-10
