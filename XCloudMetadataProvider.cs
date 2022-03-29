@@ -27,7 +27,7 @@ namespace XCloudLibrary
                 return null;
             }
 
-            GameMetadata gameInfo = XBoxHelper.ConvertXCloudGameToMetadata(plugin.PlayniteApi, games[0], plugin.Id, false);
+            GameMetadata gameInfo = XBoxHelper.ConvertXCloudGameToMetadata(plugin.PlayniteApi, games[0], plugin.Id, false, plugin.settings.Settings.SetGamesAsInstalled);
 
             if (!string.IsNullOrEmpty(games[0].IconUrl))
             {

@@ -61,7 +61,7 @@ namespace XCloudLibrary
                     var alreadyImported = PlayniteApi.Database.Games.FirstOrDefault(a => a.GameId == xgame.GameId && a.PluginId == Id);
                     if (alreadyImported == null)
                     {
-                        GameMetadata newGame = XBoxHelper.ConvertXCloudGameToMetadata(PlayniteApi, xgame, Id);
+                        GameMetadata newGame = XBoxHelper.ConvertXCloudGameToMetadata(PlayniteApi, xgame, Id, true, settings.Settings.SetGamesAsInstalled);
                         if (newGame != null)
                         {
                             result.Add(PlayniteApi.Database.ImportGame(newGame, this));

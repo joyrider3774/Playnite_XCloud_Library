@@ -393,7 +393,7 @@ namespace XCloudLibrary
             return list;
         }
 
-        public static GameMetadata ConvertXCloudGameToMetadata(IPlayniteAPI PlayniteApi, XCloudGame xgame, Guid pluginid, bool basicdata = true)
+        public static GameMetadata ConvertXCloudGameToMetadata(IPlayniteAPI PlayniteApi, XCloudGame xgame, Guid pluginid, bool basicdata = true, bool SetGameAsInstalled = true)
         {
             try
             {
@@ -402,7 +402,7 @@ namespace XCloudLibrary
                 newGame.Platforms = new HashSet<MetadataProperty> { new MetadataNameProperty(XcloudPlatformName) };
                 newGame.Source = new MetadataNameProperty("XCloud");
                 newGame.Name = xgame.Name;
-                newGame.IsInstalled = true;
+                newGame.IsInstalled = SetGameAsInstalled;
                 newGame.GameId = xgame.GameId;
                 if (!basicdata)
                 {

@@ -27,6 +27,7 @@ namespace XCloudLibrary
         public string CoverSize { get; set; } = "600|900|P";
         public string BackgroundSize { get; set; } = "1280|720|B";
         public bool PreferTitledBackground { get; set; } = false;
+        public bool SetGamesAsInstalled { get; set; } = true;
 
         [DontSerialize]
         public string buildParameters(string url, string BrowserDataPath)
