@@ -2,27 +2,28 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- settings screen Generic options -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_GenericOptions">Generic Options</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GenericOptions">일반 옵션</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayAddedNotification">Display notification when a game gets added</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayRemovedNotification">Display notification when a game gets removed</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Region">Region:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetGamesAsInstalled">Set games as installed</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Region">지역:</sys:String>
 
     <!-- settings screen Metadata options -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_MetadataOptions">Metadata Options</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Language">Language:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_IconSize">Icon Size:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_CoverSize">Cover Size:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BackgroundSize">Background Size:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_MetadataOptions">메타데이터 옵션</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Language">언어:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_IconSize">아이콘 크기:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_CoverSize">커버 크기:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BackgroundSize">배경 크기:</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_PreferBackgroundTitle">Prefer background with title</sys:String>
 
     <!-- settings screen Browser options -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserOptions">Browser Options</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserLocation">Browser location (Chrome.exe or Msedge.exe when using options below):</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Select">Select</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserOptions">브라우저 옵션</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserLocation">브라우저 위치 (Chrome.exe 또는 Msedge.exe 아래 옵션을 사용하는 경우):</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Select">선택</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParameters">Extra parameters to pass to browser:</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrl">Prepend url (for example some microsoft redirect url to login, use at your own risk):</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskMode">Use Kiosk Mode</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDir">Use Data Dir</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDir">Data Dir 사용</sys:String>
 
     <!-- settings screen Tooltips -->
     <sys:String x:Key="LOC_XCLOUDLIBRARY_RegionTooltip">Affects available games</sys:String>
@@ -40,8 +41,8 @@
     <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupBrowserMessage">Please setup your browser correctly first!</sys:String>
     
     <!-- Image Types -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Icon">Icon</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Poster">Poster</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Square">Square</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Icon">아이콘</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Poster">포스터</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Square">사각형</sys:String>
      
 </ResourceDictionary>

@@ -2,46 +2,47 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- settings screen Generic options -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_GenericOptions">Generic Options</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayAddedNotification">Display notification when a game gets added</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayRemovedNotification">Display notification when a game gets removed</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Region">Region:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GenericOptions">常规选项</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayAddedNotification">当有游戏被添加时显示通知</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayRemovedNotification">当游戏被移除时显示通知</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetGamesAsInstalled">Set games as installed</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Region">地区：</sys:String>
 
     <!-- settings screen Metadata options -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_MetadataOptions">Metadata Options</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Language">Language:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_IconSize">Icon Size:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_CoverSize">Cover Size:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BackgroundSize">Background Size:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_PreferBackgroundTitle">Prefer background with title</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_MetadataOptions">元数据选项</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Language">语言：</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_IconSize">图标大小：</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_CoverSize">封面大小：</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BackgroundSize">背景大小：</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_PreferBackgroundTitle">首选带标题的背景</sys:String>
 
     <!-- settings screen Browser options -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserOptions">Browser Options</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserLocation">Browser location (Chrome.exe or Msedge.exe when using options below):</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Select">Select</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParameters">Extra parameters to pass to browser:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrl">Prepend url (for example some microsoft redirect url to login, use at your own risk):</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskMode">Use Kiosk Mode</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDir">Use Data Dir</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserOptions">浏览器选项</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserLocation">浏览器位置（使用下面的选项时的 Chrome.exe 或 Msedge.exe）：</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Select">选择</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParameters">要传递到浏览器的额外参数：</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrl">前缀网址（例如一些微软重定向网址用于登录；使用时自行承担风险）：</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskMode">使用 Kiosk 模式</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDir">使用数据目录</sys:String>
 
     <!-- settings screen Tooltips -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_RegionTooltip">Affects available games</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_LanguageTooltip">Affects game names and descriptions</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_ResizeTooltip">Microsoft servers will attempt to resize to this resolution</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParametersTooltip">Add your own extra parameters</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrlTooltip">Adding some redirect url to login to microsoft and redirect to this page, can work better to make games immmediatly launch, but can cause softlock on account when called too often!</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskModeTooltip">Will Launch chrome or edge in fullscreen kiosk modus</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDirTooltip">Will make sure chrome or edge will launch in seperate instance and use it's own data files specific for playnite (will also fix kiosk modus not working if already running)</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_RegionTooltip">影响可用游戏</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_LanguageTooltip">影响游戏名称和描述</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_ResizeTooltip">Microsoft 服务器会尝试将大小调整到此分辨率</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParametersTooltip">添加您自己的额外参数</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrlTooltip">添加一些重定向网址以登录到微软并重定向到此页，能够更好地使游戏立即启动，但在过于频繁地被使用时会导致帐户被软锁！</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskModeTooltip">在全屏 Kiosk 模组中将启动 Chrome 或 Edge</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDirTooltip">将确保 Chrome 或 Edge 作为独立实例启动，并为 Playnite 使用其独有数据文件（也将修复 Kiosk 模组已运行却不工作的问题）</sys:String>
 
     <!-- Misc -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameAdded">XCloud game {0} has been added</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameRemoved">XCloud game {0} has been removed</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupMessage">Please setup XCLoud Region, language and browser first in settings!</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupBrowserMessage">Please setup your browser correctly first!</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameAdded">{0} 个 XCloud 游戏已被添加</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameRemoved">{0} 个 XCloud 游戏已被移除</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupMessage">请先在设置中设定 XCloud 地区，语言和浏览器！</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupBrowserMessage">请先正确地设定您的浏览器！</sys:String>
     
     <!-- Image Types -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Icon">Icon</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Poster">Poster</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Square">Square</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Icon">图标</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Poster">海报</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Square">正方形</sys:String>
      
 </ResourceDictionary>

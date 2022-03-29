@@ -2,15 +2,16 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- settings screen Generic options -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_GenericOptions">Generic Options</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GenericOptions">Общие Настройки</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayAddedNotification">Display notification when a game gets added</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayRemovedNotification">Display notification when a game gets removed</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Region">Region:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetGamesAsInstalled">Set games as installed</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Region">Регион:</sys:String>
 
     <!-- settings screen Metadata options -->
     <sys:String x:Key="LOC_XCLOUDLIBRARY_MetadataOptions">Metadata Options</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Language">Language:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_IconSize">Icon Size:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Language">Язык:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_IconSize">Размер Иконки:</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_CoverSize">Cover Size:</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_BackgroundSize">Background Size:</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_PreferBackgroundTitle">Prefer background with title</sys:String>
@@ -18,10 +19,10 @@
     <!-- settings screen Browser options -->
     <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserOptions">Browser Options</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserLocation">Browser location (Chrome.exe or Msedge.exe when using options below):</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Select">Select</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Select">Выбрать</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParameters">Extra parameters to pass to browser:</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrl">Prepend url (for example some microsoft redirect url to login, use at your own risk):</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskMode">Use Kiosk Mode</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskMode">Режим Киоска</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDir">Use Data Dir</sys:String>
 
     <!-- settings screen Tooltips -->
@@ -40,8 +41,8 @@
     <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupBrowserMessage">Please setup your browser correctly first!</sys:String>
     
     <!-- Image Types -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Icon">Icon</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Poster">Poster</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Square">Square</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Icon">Иконка</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Poster">Постер</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Square">Квадрат</sys:String>
      
 </ResourceDictionary>

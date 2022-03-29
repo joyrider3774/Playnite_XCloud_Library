@@ -5,6 +5,7 @@
     <sys:String x:Key="LOC_XCLOUDLIBRARY_GenericOptions">Allgemeine Optionen</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayAddedNotification">Benachrichtigung anzeigen, wenn ein Spiel hinzugefügt wird</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayRemovedNotification">Benachrichtigung anzeigen, wenn ein Spiel entfernt wird</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetGamesAsInstalled">Spiele als installiert einstellen</sys:String>
     <sys:String x:Key="LOC_XCLOUDLIBRARY_Region">Region:</sys:String>
 
     <!-- settings screen Metadata options -->

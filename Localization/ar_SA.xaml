@@ -2,46 +2,47 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <!-- settings screen Generic options -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_GenericOptions">Generic Options</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayAddedNotification">Display notification when a game gets added</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayRemovedNotification">Display notification when a game gets removed</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Region">Region:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GenericOptions">خيارات عامة</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayAddedNotification">عرض إشعار عند إضافة لعبة</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_DisplayRemovedNotification">عرض إشعار عند إزالة لعبة</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetGamesAsInstalled">Set games as installed</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Region">المنطقة:</sys:String>
 
     <!-- settings screen Metadata options -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_MetadataOptions">Metadata Options</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Language">Language:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_IconSize">Icon Size:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_CoverSize">Cover Size:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BackgroundSize">Background Size:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_PreferBackgroundTitle">Prefer background with title</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_MetadataOptions">خيارات بيانات الوصف</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Language">اللغة:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_IconSize">حجم الأيقونة:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_CoverSize">حجم الغلاف:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BackgroundSize">حجم الخلفية:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_PreferBackgroundTitle">تفضيل الخلفية مع العنوان</sys:String>
 
     <!-- settings screen Browser options -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserOptions">Browser Options</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserLocation">Browser location (Chrome.exe or Msedge.exe when using options below):</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Select">Select</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParameters">Extra parameters to pass to browser:</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrl">Prepend url (for example some microsoft redirect url to login, use at your own risk):</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskMode">Use Kiosk Mode</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDir">Use Data Dir</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserOptions">خيارات المتصفح</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserLocation">موقع المتصفح (Chrome.exe أو Msedge.exe عند استخدام الخيارات أدناه):</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Select">اختر</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParameters">معلمات إضافية لتمريرها إلى المتصفح:</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrl">إلحاق الرابط (على سبيل المثال بعض بعض روابط إعادة التوجيه Microsoft لتسجيل الدخول، استخدم على مسؤوليتك الخاصة):</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskMode">استخدام وضع Kiosk</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDir">استخدام Data Dir</sys:String>
 
     <!-- settings screen Tooltips -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_RegionTooltip">Affects available games</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_LanguageTooltip">Affects game names and descriptions</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_ResizeTooltip">Microsoft servers will attempt to resize to this resolution</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParametersTooltip">Add your own extra parameters</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrlTooltip">Adding some redirect url to login to microsoft and redirect to this page, can work better to make games immmediatly launch, but can cause softlock on account when called too often!</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskModeTooltip">Will Launch chrome or edge in fullscreen kiosk modus</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDirTooltip">Will make sure chrome or edge will launch in seperate instance and use it's own data files specific for playnite (will also fix kiosk modus not working if already running)</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_RegionTooltip">يؤثر على الألعاب المتوفرة</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_LanguageTooltip">يؤثر على أسماء اللعبة وأوصافها</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_ResizeTooltip">سيرفرات مايكروسوفت ستحاول تغيير الحجم إلى هذا الدقة</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserExtraParametersTooltip">إضافة معلمات إضافية خاصة بك</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserPrependUrlTooltip">إضافة بعض رابط إعادة توجيه لتسجيل الدخول إلى Microsoft وإعادة التوجيه إلى هذه الصفحة، يمكن أن تعمل بشكل أفضل لجعل الألعاب تطلق فورًا، ولكن يمكن أن تسبب قفل ناعم على الحساب عندما يتم الاتصال به كثيرا!</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseKioskModeTooltip">سيتم تشغيل chrome أو edge في وضع kiosk Fullscreen</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_BrowserUseDataDirTooltip">سوف نتأكد من تشغيل chrome أو edge في مثيل منفصل واستخدام ملفات البيانات الخاصة بهما ل Playnite (سيتم أيضًا إصلاح وضع kiosk الذي لا يعمل إذا كان قيد التشغيل بالفعل)</sys:String>
 
     <!-- Misc -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameAdded">XCloud game {0} has been added</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameRemoved">XCloud game {0} has been removed</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupMessage">Please setup XCLoud Region, language and browser first in settings!</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupBrowserMessage">Please setup your browser correctly first!</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameAdded">تم إضافة لعبة XCloud {0}</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_GameRemoved">تم إزالة لعبة XCloud {0}</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupMessage">الرجاء إعداد منطقة XCLoud واللغة والمتصفح أولاً في الإعدادات!</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_SetupBrowserMessage">الرجاء إعداد متصفحك بشكل صحيح أولاً!</sys:String>
     
     <!-- Image Types -->
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Icon">Icon</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Poster">Poster</sys:String>
-    <sys:String x:Key="LOC_XCLOUDLIBRARY_Square">Square</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Icon">الأيقونة</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Poster">ملصق</sys:String>
+    <sys:String x:Key="LOC_XCLOUDLIBRARY_Square">مربع</sys:String>
      
 </ResourceDictionary>
