@@ -39,6 +39,11 @@ namespace XCloudLibrary
             };
         }
 
+        public void SelectGameNotifcation(Game game)
+        {
+            PlayniteApi.MainView.SelectGame(game.Id);
+        }
+
         public override IEnumerable<Game> ImportGames(LibraryImportGamesArgs args)
         {           
             List<Game> result = new List<Game>();
@@ -64,13 +69,15 @@ namespace XCloudLibrary
                         GameMetadata newGame = XBoxHelper.ConvertXCloudGameToMetadata(PlayniteApi, xgame, Id, true, settings.Settings.SetGamesAsInstalled);
                         if (newGame != null)
                         {
-                            result.Add(PlayniteApi.Database.ImportGame(newGame, this));
+                            Game tmpGame = PlayniteApi.Database.ImportGame(newGame, this);
+                            result.Add(tmpGame);
                             if (settings.Settings.NotifyAdditions)
                             {
                                 PlayniteApi.Notifications.Add(new NotificationMessage(
                                     Guid.NewGuid().ToString(),
                                     string.Format(Constants.GameAddedText, newGame.Name),
-                                    NotificationType.Info));
+                                    NotificationType.Info, 
+                                    () => SelectGameNotifcation(tmpGame)));
                             }
                         }
                     }
@@ -106,7 +113,7 @@ namespace XCloudLibrary
             {
 
                 PlayniteApi.Notifications.Add(new NotificationMessage(
-                    Guid.NewGuid().ToString(), Constants.SetupMessageText, NotificationType.Info));
+                    Guid.NewGuid().ToString(), Constants.SetupMessageText, NotificationType.Info, () => OpenSettingsView()));
             }
             return result;
         }
