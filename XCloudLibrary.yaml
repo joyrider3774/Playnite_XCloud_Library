@@ -5,8 +5,8 @@ Packages:
     ReleaseDate: 2022-03-30
     PackageUrl: https://github.com/joyrider3774/Playnite_XCloud_Library/releases/download/v1.4/XCloudLibrary-v1.4.pext
     Changelog:
-      - "Initial setup" notification will now open settings when clicking it
-      - "Game added" notifications will now select the added game when clicking it
+      - '"Initial setup" notification will now open settings when clicking it'
+      - '"Game added" notifications will now select the added game when clicking it'
   - Version: 1.3
     RequiredApiVersion: 6.2.2
     ReleaseDate: 2022-03-29
