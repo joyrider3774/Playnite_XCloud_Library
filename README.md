@@ -1,4 +1,6 @@
 # Playnite XCloud Library
+![DownloadCountTotal](https://img.shields.io/github/downloads/joyrider3774/Playnite_XCloud_Library/total?label=total%20downloads&style=plastic) ![DownloadCountLatest](https://img.shields.io/github/downloads/joyrider3774/Playnite_XCloud_Library/latest/total?style=plastic) ![LatestVersion](https://img.shields.io/github/v/tag/joyrider3774/Playnite_XCloud_Library?label=Latest%20version&style=plastic) ![License](https://img.shields.io/github/license/joyrider3774/Playnite_XCloud_Library?style=plastic)
+
 A Library plugin for [Playnite](https://www.playnite.link/) that pulls XBox cloud games and lets you configure a browser to play them
 
 [Latest Release](https://github.com/joyrider3774/Playnite_XCloud_Library/releases/latest)
